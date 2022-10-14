@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.web.WebView?>
+
+<BorderPane prefHeight="368.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GUIMaster">
+   <top>
+      <WebView fx:id="wvMain" prefHeight="345.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <Button fx:id="btnStart" mnemonicParsing="false" onMouseClicked="#start" prefHeight="25.0" prefWidth="597.0" text="Start" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
